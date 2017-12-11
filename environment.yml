@@ -1,0 +1,10 @@
+name: grpc-example
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6
+    - protobuf
+    - pip:
+        - grpcio
+        - grpcio-tools
